@@ -1,0 +1,171 @@
+body{
+    background-image: url('battleback8.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#Persos{
+    margin-top:10%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items : flex-end;
+}
+
+.hero{
+    height: 15%;
+    width: 7%;
+}
+
+#monstre{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.monstre{
+    height: 10%;
+    width: 10%;
+}
+
+#Images{
+    display:flex;
+    flex-direction: column;
+}
+#taille_perso{
+    height: 10%;
+    width: 10%;
+    background:#F1F1F1;
+    display: flex;
+    justify-content: space-around;
+  }
+#Zone_BackPerso {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom:0;
+  }
+
+#skill_vieux{
+    display:none;
+    width: 80%;
+    height: 80%;
+}
+
+#taille_competence{
+    height: 10%;
+    width: 13%;
+    background:#F1F1F1;
+    display: flex;
+    justify-content: space-around; 
+  }
+
+#taille_competenceR{
+    height: 100%;
+    width: 80%;
+    background:#F1F1F1;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#taille_competenceV{
+    height: 100%;
+    width: 80%;
+    background:#F1F1F1;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#taille_competenceB{
+    height: 100%;
+    width: 80%;
+    background:#F1F1F1;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#Competence_Vieux{
+    margin-left:7.5%;
+    margin-top:10px;
+    display: flex;
+}
+
+#Competence_VieuxR{
+    margin-left:32.5%;
+    margin-top:10px;
+    display: flex;
+}
+
+#Competence_VieuxV{
+    margin-left:57.5%;
+    margin-top:10px;
+    display: flex;
+}
+
+#Competence_VieuxB{
+    margin-left:83%;
+    margin-top:10px;
+    display: flex;
+}
+
+#dialogue{
+    height: 20%;
+    text-align: center;
+    color: #F1F1F1;
+    border: rgb(39, 27, 12) 3px solid;
+    background-color: rgb(78, 97, 91);
+}
+
+#attaque{
+    border: rgb(39, 27, 12) 8px solid;
+    background-color: rgb(78, 97, 91);
+}
+
+#InfoCroco{
+    position: absolute;
+    left:10%;
+    z-index: 1;
+    top: 5%;
+    border: rgb(39, 27, 12) 2px solid;
+    background-color: rgb(78, 97, 91);
+    visibility: hidden;
+}
+
+#InfoMonstre1{
+    position: absolute;
+    z-index: 1;
+    top: 4%;
+    border: rgb(39, 27, 12) 2px solid;
+    background-color: rgb(78, 97, 91);
+    visibility: hidden;
+}
+
+#InfoCroco2{
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+    top: 5%;
+    border: rgb(39, 27, 12) 2px solid;
+    background-color: rgb(78, 97, 91);
+    visibility: hidden;
+}
+
+#Monstre1{
+    visibility: visible;
+}
+
+
+#Monstre1:hover ~ #InfoCroco{ 
+        visibility: visible;
+}
+
+#Monstre2:hover ~ #InfoMonstre1{ 
+    visibility: visible;
+}
+
+#Monstre3:hover ~ #InfoCroco2{ 
+    visibility: visible;
+}
+
+

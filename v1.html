@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPGBattle</title>
+    <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="js.js" async></script> 
+</head>
+<body>
+    <!--<div id="Images">-->
+        <div id="dialogue">BIENVENUE DANS LE JEU EHEH</div>
+        <div id="monstre">
+            <img src="crocro.png" id="Monstre1" class="monstre" onclick="null">
+            <img src="monstre1.png" id="Monstre2" class="monstre" onclick="null">
+            <img src="crocro.png" id="Monstre3" class="monstre" onclick="null">
+            <div id="InfoCroco">50/50</div>
+            <div id="InfoMonstre1">50/50</div>
+            <div id="InfoCroco2">50/50</div>
+        </div>
+        
+        <div id="Persos">
+            <img src="vvieux.png" id="Player1" class="hero" >
+            <img src="vvieuxrouge.png" id="Player2" class="hero" >
+            <img src="vvieuxviolet.png" id="Player3" class="hero" >
+            <img src="vvieuxbleu.png" id="Player4" class="hero" >
+        </div> 
+
+        <div id="attaque">
+            <section id="Zone_BackPerso"> 
+                <button id="taille_perso" onclick="s_vieux()"  title="Test_title">
+                    <div class="Perso" id="pv_perso_un"> HP : <div id=hpHero1> 100 </div><br>MP : 50<br></div>Vieux</button> 
+                <button id="taille_perso" onclick="s_vieuxR()"  title="Test_title">
+                    <div class="Perso" id="pv_perso_un"> HP : <div id=hpHero2> 100 </div><br>MP : 50<br></div>Vieux Rouge</button>
+                <button id="taille_perso" onclick="s_vieuxV()"  title="Test_title">
+                    <div class="Perso" id="pv_perso_un"> HP : <div id=hpHero3> 100 </div><br>MP : 50<br></div>Vieux Violet</button>
+                <button id="taille_perso" onclick="s_vieuxB()"  title="Test_title">
+                    <div class="Perso" id="pv_perso_un"> HP : <div id=hpHero4> 100 </div><br>MP : 50<br></div>Vieux Bleu</button>
+        
+
+        </section><section id="Competence_Vieux">
+            <div id="skill_vieux" style="display:none">
+                <div><button id="taille_competenceNATK" onclick="choix_competence_atq_Noir()">Attaque<br><br>Le vieux tape.</button></div>
+                <br>
+                <div><button id="taille_competenceNDEF" onclick="choix_competence_def_Noir()">Défense<br><br>Le vieux se défend.</button></div>
+                <br>
+                <div><button id="taille_competenceNSPE" onclick="choix_competence_spe_Noir()">Spécial<br><br>Le vieux attaque.</button></div>
+            </div>
+        
+        </section>
+
+
+
+        <section id="Competence_VieuxR">
+            <div id="skill_vieuxR" style="display:none">
+                <div><button id="taille_competenceRATK" onclick="choix_competence_atq_Rouge()">Attaque<br><br>Le vieux Rouge tape.</button></div>
+                <br>
+                <div><button id="taille_competenceRDEF" onclick="choix_competence_def_Rouge()">Défense<br><br>Le vieux Rouge se défend.</button></div>
+                <br>
+                <div><button id="taille_competenceRSPE" onclick="choix_competence_spe_Rouge()">Spécial<br><br>Le vieux Rouge attaque.</button></div>
+            </div>
+        </section>
+
+        <section id="Competence_VieuxV">
+            <div id="skill_vieuxV" style="display:none">
+                <div><button id="taille_competenceVATK" onclick="choix_competence_atq_Violet()">Attaque<br><br>Le vieux Violet tape.</button></div>
+                <br>
+                <div><button id="taille_competenceVDEF" onclick="choix_competence_def_Violet()">Défense<br><br>Le vieux Violet se défend.</button></div>
+                <br>
+                <div><button id="taille_competenceVSPE" onclick="choix_competence_spe_Rouge()">Spécial<br><br>Le vieux Violet attaque.</button></div>
+            </div>
+        </section>
+
+        <section id="Competence_VieuxB">
+            <div id="skill_vieuxB" style="display:none">
+                <div><button id="taille_competenceBATK" onclick="choix_competence_atq_Bleu()">Attaque<br><br>Le vieux Bleu tape.</button></div>
+                <br>
+                <div><button id="taille_competenceBDEF" onclick="choix_competence_def_Bleu()">Défense<br><br>Le vieux Bleu se défend.</button></div>
+                 <br>
+                <div><button id="taille_competenceBSPE" onclick="choix_competence_def_Rouge()">Spécial<br><br>Le vieux Bleu attaque.</button></div>
+            </div>
+        </section>
+    <!--</div> -->
+</body>
+</html>
